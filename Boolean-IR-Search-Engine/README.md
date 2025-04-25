@@ -25,7 +25,6 @@ Boolean-IR-Search-Engine/
 │   ├── frontend/              
 │   │   ├── app.py              # Frontend code for the search engine interface
 │   │   └── search_engine.py    # Code for search engine logic (front-end interactions)
-├── requirements.txt            # List of Python dependencies (if applicable)
 └── README.md                   # Project documentation
 
 
