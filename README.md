@@ -22,3 +22,27 @@ This repository contains all the work I have done in the fields of **Information
      ├── code/
      └── README.md
      ```
+
+### 2. **Vector Space Model (VSM) IR Search Engine**
+   - **Description**: This project implements an Information Retrieval System using the Vector Space Model (VSM). It uses **TF-IDF weighting** and **Cosine Similarity** to rank documents based on their relevance to a user query. A Streamlit GUI is included for an interactive search experience. The system also supports evaluation using Golden Queries.
+
+   - **Technologies Used**: Python, Jupyter Notebook, Streamlit
+
+   - **Key Files**:
+   - `4004Assignment2.ipynb`: Core implementation of the VSM system and index generation.
+   - `frontend/`: Contains the Streamlit-based frontend (app.py) and backend logic (vsm_engine.py).
+   - `data/`: Contains raw abstracts, stopword list, and golden queries.
+   - `indexes/`: Stores the generated TF-IDF-based inverted and positional indexes.
+
+- **Folder Structure**:
+   ```
+   Vector-Space-Model-IR-Search-Engine/
+   ├── code/
+   │   ├── 4004Assignment2.ipynb
+   │   └── frontend/
+   │       ├── app.py
+   │       └── vsm_engine.py
+   ├── data/
+   ├── indexes/
+   └── README.md
+   ```
