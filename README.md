@@ -50,8 +50,7 @@ This repository contains all the work I have done in the fields of **Information
 
 
 ### 3. **Product Title Quality Estimation – CIKM AnalytiCup 2017**
-- **Description**: This project is based on the CIKM AnalytiCup 2017 paper titled
-- *"Product Title Classification versus Text Classification – Bagging Model for Product Title Quality with Noise"*.
+- **Description**: This project is based on the CIKM AnalytiCup 2017 paper titled *"Product Title Classification versus Text Classification – Bagging Model for Product Title Quality with Noise"*.
 -  The objective is to predict two attributes of e-commerce product titles: **clarity** and **conciseness**.
 - Character-level n-gram features are extracted from product titles and descriptions.
 - A bagged ensemble of **LightGBM regressors** is used for prediction.
