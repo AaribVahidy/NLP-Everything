@@ -46,3 +46,37 @@ This repository contains all the work I have done in the fields of **Information
    ├── indexes/
    └── README.md
    ```
+
+
+
+### 3. **Product Title Quality Estimation – CIKM AnalytiCup 2017**
+- **Description**: This project is based on the CIKM AnalytiCup 2017 paper titled
+- *"Product Title Classification versus Text Classification – Bagging Model for Product Title Quality with Noise"*.
+-  The objective is to predict two attributes of e-commerce product titles: **clarity** and **conciseness**.
+- Character-level n-gram features are extracted from product titles and descriptions.
+- A bagged ensemble of **LightGBM regressors** is used for prediction.
+- The model is evaluated using **Root Mean Squared Error (RMSE)**.
+  
+- **Technologies Used**: Python, Jupyter Notebook, Pandas, NumPy, Scikit-learn, LightGBM, BeautifulSoup, Regex
+
+- **Key Features**:
+  - Text preprocessing with HTML tag removal, lowercasing, and normalization.
+  - Character n-gram vectorization (`CountVectorizer` with n-grams from 2 to 6).
+  - Bagged ensemble training across multiple folds for robustness.
+
+- **Results**:
+
+  | Metric        | Paper RMSE (XGBoost) | Our RMSE (LightGBM) |
+  |---------------|----------------------|----------------------|
+  | *Conciseness* | 0.31553              | 0.35273              |
+  | *Clarity*     | 0.20745              | 0.52931              |
+
+  While our model does not fully replicate the original paper’s performance due to computational constraints, it closely follows the published methodology and achieves reasonable results.
+
+- **Folder Structure**:
+  ```
+  Product-Title-Quality-Estimation-CIKMAnalyticup2017/
+  ├── data/
+  ├── code/
+  └── README.md
+  ```
